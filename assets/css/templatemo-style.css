@@ -13,7 +13,7 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    background: url(../images/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -136,8 +136,8 @@ html {
 }
 
 .menu .image img {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     text-align: center;
 }
@@ -193,7 +193,7 @@ html {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .menu:before,
@@ -769,8 +769,8 @@ section.contact-me {
     }
 
     .menu .image img {
-        width: 120px;
-        height: 120px;
+        width: 160px;
+        height: 160px;
     }
 
     .menu .author-content {
