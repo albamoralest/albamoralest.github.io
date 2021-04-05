@@ -38,6 +38,10 @@ a,
 a:hover {
     text-decoration: none;
 }
+a,
+a:link a:active {
+  color: #b93f49;
+}
 
 p {
     font-size: 16px;
@@ -393,8 +397,6 @@ button:hover {
 .left-image-post .white-button {
     margin-top: 30px;
 }
-
-
 /* Services */
 
 .my-services .col-md-6 {
@@ -440,21 +442,21 @@ button:hover {
 }
 
 .service-item .first-service-icon {
-    background-image: url(../images/first-white-icon.png);
+    background-image: url(../images/kmi-white-logo.png);
 }
-
+/*
 .service-item:hover .first-service-icon {
     background-image: url(../images/first-main-icon.png);
 }
-
+*/
 .service-item .second-service-icon {
-    background-image: url(../images/second-white-icon.png);
+    background-image: url(../images/ou-white-logo.png);
 }
-
+/*
 .service-item:hover .second-service-icon {
     background-image: url(../images/second-main-icon.png);
 }
-
+*/
 .service-item .third-service-icon {
     background-image: url(../images/third-white-icon.png);
 }
@@ -475,8 +477,40 @@ button:hover {
 /* My Work */
 
 section.my-work .section-heading {
+    text-align: right;
+    /* padding: 80px 45px 50px 45px; */
+    min-height: 0vh;
+}
+
+section.my-work {
     text-align: center;
-    padding: 80px 45px 50px 45px;
+    min-height: 0vh;
+    padding-bottom: 10px;
+}
+
+.logos figure {
+  text-align: center;
+  position: relative;
+
+  /* display:flex; */
+}
+
+.logos img.isds-logo{
+  width: 10%;
+  height: 10%;
+  margin: 1%;
+}
+
+.logos img.kmi-logo {
+  width: 12%;
+  height: 12%;
+  margin: 1%;
+}
+
+.logos img.ou-logo {
+  width: 7%;
+  height: 7%;
+  margin: 1%;
 }
 
 .isotope-wrapper {
@@ -508,7 +542,7 @@ section.my-work .section-heading {
 
 .isotope-box {
     position: relative;
-    width: 100%;
+    width: 50%;
 }
 
 .isotope-toolbar {
@@ -551,11 +585,14 @@ section.my-work .section-heading {
     min-height: 60px;
 }
 
+
+
 figure.snip1321 {
   overflow: hidden;
   text-align: center;
   -webkit-perspective: 50em;
   perspective: 50em;
+
 }
 figure.snip1321 * {
   -webkit-box-sizing: padding-box;
