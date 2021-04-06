@@ -491,8 +491,6 @@ section.my-work {
 .logos figure {
   text-align: center;
   position: relative;
-
-  /* display:flex; */
 }
 
 .logos img.isds-logo{
